@@ -36,9 +36,6 @@ function App() {
     }, 3000);
   }
   
-
-
-
   return (
     <div className="App">
       <h1>DICE GAME</h1>
@@ -47,8 +44,8 @@ function App() {
         <h2>{player2}</h2>
       </div>
       <div className="dice">
-        <img src={`/src/assets/${dice1}`} alt="Oyuncu 1 Zar" />
-        <img src={`/src/assets/${dice2}`} alt="Oyuncu 2 Zar" />
+        <img src={`./image/${dice1}`} alt="Oyuncu 1 Zar" />
+        <img src={`./image/${dice2}`} alt="Oyuncu 2 Zar" />
       </div>
       <button onClick={rollDice}>Roll The Dice</button>
       <h2>{result}</h2>
